@@ -1,4 +1,4 @@
-/* ── Reset & base ─────────────────────────────────────────── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -13,7 +13,6 @@
   --max-w:       680px;
   --font:        'Segoe UI', system-ui, -apple-system, sans-serif;
 }
-
 body {
   font-family: var(--font);
   background: var(--bg);
@@ -24,7 +23,7 @@ body {
   flex-direction: column;
 }
 
-/* ── Header ───────────────────────────────────────────────── */
+
 header {
   background: var(--accent);
   color: #fff;
@@ -47,7 +46,7 @@ header h1 {
   font-weight: 400;
 }
 
-/* ── Main content ─────────────────────────────────────────── */
+
 main {
   flex: 1;
   max-width: var(--max-w);
@@ -81,7 +80,7 @@ h2 {
   max-width: 58ch;
 }
 
-/* ── Skills list ──────────────────────────────────────────── */
+
 #skills ul {
   list-style: none;
   display: flex;
@@ -128,8 +127,6 @@ footer {
 }
 
 .repo-link a:hover { text-decoration: underline; }
-
-/* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 480px) {
   section { padding: 24px 20px; }
   header { padding: 40px 20px 36px; }
